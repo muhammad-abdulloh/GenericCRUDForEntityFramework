@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="NpgSql.EntityFrameworkCore.Postgresql" Version="5.0.10" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\EFFastCrud.Domain\EFFastCrud.Domain.csproj" />
+	</ItemGroup>
+</Project>
